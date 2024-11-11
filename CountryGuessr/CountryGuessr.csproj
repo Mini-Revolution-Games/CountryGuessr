@@ -1,0 +1,361 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Logo_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Categories\AD.png" />
+    <None Remove="Categories\cities.png" />
+    <None Remove="Categories\Countries.jpg" />
+    <None Remove="C_EU\CapitalsOfEuropeMap.png" />
+    <None Remove="C_EU\EuropeMap-Luksemburg.png" />
+    <None Remove="C_EU\EuropeMapTallin.png" />
+    <None Remove="C_EU\EuropeMap_Amsterdam.png" />
+    <None Remove="C_EU\EuropeMap_Andora.png" />
+    <None Remove="C_EU\EuropeMap_Ateny.png" />
+    <None Remove="C_EU\EuropeMap_Belgrad.png" />
+    <None Remove="C_EU\EuropeMap_Berlin.png" />
+    <None Remove="C_EU\EuropeMap_Berno.png" />
+    <None Remove="C_EU\EuropeMap_Bratysława.png" />
+    <None Remove="C_EU\EuropeMap_Bruksela.png" />
+    <None Remove="C_EU\EuropeMap_Budapeszt.png" />
+    <None Remove="C_EU\EuropeMap_Bukareszt.png" />
+    <None Remove="C_EU\EuropeMap_Dublin.png" />
+    <None Remove="C_EU\EuropeMap_Helsinki.png" />
+    <None Remove="C_EU\EuropeMap_Kijów.png" />
+    <None Remove="C_EU\EuropeMap_Kiszyniów.png" />
+    <None Remove="C_EU\EuropeMap_Kopenhaga.png" />
+    <None Remove="C_EU\EuropeMap_Lizbona.png" />
+    <None Remove="C_EU\EuropeMap_Londyn.png" />
+    <None Remove="C_EU\EuropeMap_Lublana.png" />
+    <None Remove="C_EU\EuropeMap_Madrid.png" />
+    <None Remove="C_EU\EuropeMap_Mińsk.png" />
+    <None Remove="C_EU\EuropeMap_Monako.png" />
+    <None Remove="C_EU\EuropeMap_Moskwa.png" />
+    <None Remove="C_EU\EuropeMap_Oslo.png" />
+    <None Remove="C_EU\EuropeMap_Paryż.png" />
+    <None Remove="C_EU\EuropeMap_Podgorica.png" />
+    <None Remove="C_EU\EuropeMap_Praga.png" />
+    <None Remove="C_EU\EuropeMap_Prisztina.png" />
+    <None Remove="C_EU\EuropeMap_Reykjavik.png" />
+    <None Remove="C_EU\EuropeMap_Ryga.png" />
+    <None Remove="C_EU\EuropeMap_Rzym.png" />
+    <None Remove="C_EU\EuropeMap_SanMarino.png" />
+    <None Remove="C_EU\EuropeMap_Sarajewo.png" />
+    <None Remove="C_EU\EuropeMap_Skopje.png" />
+    <None Remove="C_EU\EuropeMap_Sofia.png" />
+    <None Remove="C_EU\EuropeMap_sztokholm.png" />
+    <None Remove="C_EU\EuropeMap_Tirana.png" />
+    <None Remove="C_EU\EuropeMap_Vaduz.png" />
+    <None Remove="C_EU\EuropeMap_Warszawa.png" />
+    <None Remove="C_EU\EuropeMap_Wiedeń.png" />
+    <None Remove="C_EU\EuropeMap_Wilno.png" />
+    <None Remove="C_EU\EuropeMap_Zagrzeb.png" />
+    <None Remove="C_EU\EuropeMa_Valletta.png" />
+    <None Remove="EU\EuropeMap.png" />
+    <None Remove="EU\EU_ALBANIA.png" />
+    <None Remove="EU\EU_ANDORA.png" />
+    <None Remove="EU\EU_AUSTRIA.png" />
+    <None Remove="EU\EU_BELG.png" />
+    <None Remove="EU\EU_BIALO.png" />
+    <None Remove="EU\EU_BOSNIA.png" />
+    <None Remove="EU\EU_BUŁ.png" />
+    <None Remove="EU\EU_CHORW.png" />
+    <None Remove="EU\EU_CZARGÓR.png" />
+    <None Remove="EU\EU_CZECHY.png" />
+    <None Remove="EU\EU_DANIA.png" />
+    <None Remove="EU\EU_EST.png" />
+    <None Remove="EU\EU_FINLANDIA.png" />
+    <None Remove="EU\EU_FR.png" />
+    <None Remove="EU\EU_GRECJA.png" />
+    <None Remove="EU\EU_HISZ.png" />
+    <None Remove="EU\EU_HOLA.png" />
+    <None Remove="EU\EU_IRLA.png" />
+    <None Remove="EU\EU_ISLAN.png" />
+    <None Remove="EU\EU_IT.png" />
+    <None Remove="EU\EU_KAZACH.png" />
+    <None Remove="EU\EU_KOSO.png" />
+    <None Remove="EU\EU_LIECH.png" />
+    <None Remove="EU\EU_LITWA.png" />
+    <None Remove="EU\EU_LOTWA.png" />
+    <None Remove="EU\EU_LUKS.png" />
+    <None Remove="EU\EU_MACPOL.png" />
+    <None Remove="EU\EU_MALTA.png" />
+    <None Remove="EU\EU_MONAKO.png" />
+    <None Remove="EU\EU_MOŁD.png" />
+    <None Remove="EU\EU_NIEMCY.png" />
+    <None Remove="EU\EU_NORW.png" />
+    <None Remove="EU\EU_POLSKA.png" />
+    <None Remove="EU\EU_POR.png" />
+    <None Remove="EU\EU_ROSJA.png" />
+    <None Remove="EU\EU_RUM.png" />
+    <None Remove="EU\EU_SANMAR.png" />
+    <None Remove="EU\EU_SERB.png" />
+    <None Remove="EU\EU_SLOV.png" />
+    <None Remove="EU\EU_SLOWACJA.png" />
+    <None Remove="EU\EU_SZWAJ.png" />
+    <None Remove="EU\EU_SZWECJA.png" />
+    <None Remove="EU\EU_TUR.png" />
+    <None Remove="EU\EU_UK.png" />
+    <None Remove="EU\EU_UKRA.png" />
+    <None Remove="EU\EU_WATYKAN.png" />
+    <None Remove="EU\EU_WEGRY.png" />
+    <None Remove="Games_icons.png" />
+    <None Remove="KE.jpg" />
+    <None Remove="Logo_Trans.png" />
+    <None Remove="Oceania\0_NewZealand.png" />
+    <None Remove="Oceania\Oceania_map.png" />
+    <None Remove="Oceania\O_Australia.png" />
+    <None Remove="Oceania\O_CookIsland.png" />
+    <None Remove="Oceania\O_Fiji.png" />
+    <None Remove="Oceania\O_kiribati.png" />
+    <None Remove="Oceania\O_MarshallIslands.png" />
+    <None Remove="Oceania\O_micronesia.png" />
+    <None Remove="Oceania\O_Nauru.png" />
+    <None Remove="Oceania\O_Niue.png" />
+    <None Remove="Oceania\O_Palau.png" />
+    <None Remove="Oceania\O_Papua.png" />
+    <None Remove="Oceania\O_SalomonIslands.png" />
+    <None Remove="Oceania\O_Samoa.png" />
+    <None Remove="Oceania\O_Tonga.png" />
+    <None Remove="Oceania\O_Tuvalu.png" />
+    <None Remove="Oceania\O_Vanuatu.png" />
+    <None Remove="POLSKA.jpg" />
+    <None Remove="PolskaDOLŚL.png" />
+    <None Remove="PolskaKUJPOM.png" />
+    <None Remove="PolskaLUBE.png" />
+    <None Remove="PolskaLUBUS.png" />
+    <None Remove="PolskaMAPOL.png" />
+    <None Remove="PolskaMAZ.png" />
+    <None Remove="PolskaOPOL.png" />
+    <None Remove="PolskaPodkarpackie.png" />
+    <None Remove="PolskaPODL.png" />
+    <None Remove="PolskaPOM.png" />
+    <None Remove="PolskaWARMAZ.png" />
+    <None Remove="PolskaWIELKOPOL.png" />
+    <None Remove="PolskaWOJ.jpg" />
+    <None Remove="PolskaZACHPOM.png" />
+    <None Remove="PolskaŁÓDZ.png" />
+    <None Remove="PolskaŚL.png" />
+    <None Remove="PolskaŚwKrz.png" />
+    <None Remove="SA\OC.jpg" />
+    <None Remove="SA\SA_Argentina.png" />
+    <None Remove="SA\SA_Boliwia.png" />
+    <None Remove="SA\SA_Brazil.png" />
+    <None Remove="SA\SA_Chile.png" />
+    <None Remove="SA\SA_Ekwador.png" />
+    <None Remove="SA\SA_Gujana.png" />
+    <None Remove="SA\SA_Kolumbia.png" />
+    <None Remove="SA\SA_MAP.jpg" />
+    <None Remove="SA\SA_MAP.png" />
+    <None Remove="SA\SA_Paraguay.png" />
+    <None Remove="SA\SA_Peru.png" />
+    <None Remove="SA\SA_Surinam.png" />
+    <None Remove="SA\SA_Urugwaj.png" />
+    <None Remove="SA\SA_Wenezuela.png" />
+    <None Remove="SA\South-America-Country-Blank-Map.jpg" />
+    <None Remove="SA_IMG.jpg" />
+    <None Remove="SE.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Logo_ico.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Oceania\Oceania_map.png" />
+    <Resource Include="Oceania\O_Vanuatu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Oceania\O_Tonga.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="C_EU\EuropeMap-Luksemburg.png" />
+    <Resource Include="C_EU\EuropeMapTallin.png" />
+    <Resource Include="C_EU\EuropeMap_sztokholm.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="C_EU\EuropeMap_Moskwa.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="C_EU\EuropeMap_Berlin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="C_EU\CapitalsOfEuropeMap.png" />
+    <Resource Include="C_EU\EuropeMap_Amsterdam.png" />
+    <Resource Include="C_EU\EuropeMap_Andora.png" />
+    <Resource Include="C_EU\EuropeMap_Ateny.png" />
+    <Resource Include="C_EU\EuropeMap_Belgrad.png" />
+    <Resource Include="C_EU\EuropeMap_Berno.png" />
+    <Resource Include="C_EU\EuropeMap_Bratysława.png" />
+    <Resource Include="C_EU\EuropeMap_Bruksela.png" />
+    <Resource Include="C_EU\EuropeMap_Budapeszt.png" />
+    <Resource Include="C_EU\EuropeMap_Bukareszt.png" />
+    <Resource Include="C_EU\EuropeMap_Dublin.png" />
+    <Resource Include="C_EU\EuropeMap_Helsinki.png" />
+    <Resource Include="C_EU\EuropeMap_Kijów.png" />
+    <Resource Include="C_EU\EuropeMap_Kiszyniów.png" />
+    <Resource Include="C_EU\EuropeMap_Kopenhaga.png" />
+    <Resource Include="C_EU\EuropeMap_Lizbona.png" />
+    <Resource Include="C_EU\EuropeMap_Londyn.png" />
+    <Resource Include="C_EU\EuropeMap_Lublana.png" />
+    <Resource Include="C_EU\EuropeMap_Madrid.png" />
+    <Resource Include="C_EU\EuropeMap_Mińsk.png" />
+    <Resource Include="C_EU\EuropeMap_Monako.png" />
+    <Resource Include="C_EU\EuropeMap_Oslo.png" />
+    <Resource Include="C_EU\EuropeMap_Paryż.png" />
+    <Resource Include="C_EU\EuropeMap_Podgorica.png" />
+    <Resource Include="C_EU\EuropeMap_Praga.png" />
+    <Resource Include="C_EU\EuropeMap_Prisztina.png" />
+    <Resource Include="C_EU\EuropeMap_Reykjavik.png" />
+    <Resource Include="C_EU\EuropeMap_Ryga.png" />
+    <Resource Include="C_EU\EuropeMap_Rzym.png" />
+    <Resource Include="C_EU\EuropeMap_SanMarino.png" />
+    <Resource Include="C_EU\EuropeMap_Sarajewo.png" />
+    <Resource Include="C_EU\EuropeMap_Skopje.png" />
+    <Resource Include="C_EU\EuropeMap_Sofia.png" />
+    <Resource Include="C_EU\EuropeMap_Tirana.png" />
+    <Resource Include="C_EU\EuropeMap_Vaduz.png" />
+    <Resource Include="C_EU\EuropeMap_Warszawa.png" />
+    <Resource Include="C_EU\EuropeMap_Wiedeń.png" />
+    <Resource Include="C_EU\EuropeMap_Wilno.png" />
+    <Resource Include="C_EU\EuropeMap_Zagrzeb.png" />
+    <Resource Include="C_EU\EuropeMa_Valletta.png" />
+    <Resource Include="Logo_Trans.png" />
+    <Resource Include="Oceania\0_NewZealand.png" />
+    <Resource Include="Oceania\O_Australia.png" />
+    <Resource Include="Oceania\O_CookIsland.png" />
+    <Resource Include="Oceania\O_Fiji.png" />
+    <Resource Include="Oceania\O_kiribati.png" />
+    <Resource Include="Oceania\O_MarshallIslands.png" />
+    <Resource Include="Oceania\O_micronesia.png" />
+    <Resource Include="Oceania\O_Nauru.png" />
+    <Resource Include="Oceania\O_Niue.png" />
+    <Resource Include="Oceania\O_Palau.png" />
+    <Resource Include="Oceania\O_Papua.png" />
+    <Resource Include="Oceania\O_SalomonIslands.png" />
+    <Resource Include="Oceania\O_Samoa.png" />
+    <Resource Include="Oceania\O_Tuvalu.png" />
+    <Resource Include="SA\OC.jpg" />
+    <Resource Include="SA\SA_Ekwador.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Categories\AD.png" />
+    <Resource Include="Categories\cities.png" />
+    <Resource Include="Categories\Countries.jpg" />
+    <Resource Include="EU\EuropeMap.png" />
+    <Resource Include="EU\EU_ALBANIA.png" />
+    <Resource Include="EU\EU_ANDORA.png" />
+    <Resource Include="EU\EU_AUSTRIA.png" />
+    <Resource Include="EU\EU_BELG.png" />
+    <Resource Include="EU\EU_BIALO.png" />
+    <Resource Include="EU\EU_BOSNIA.png" />
+    <Resource Include="EU\EU_BUŁ.png" />
+    <Resource Include="EU\EU_CHORW.png" />
+    <Resource Include="EU\EU_CZARGÓR.png" />
+    <Resource Include="EU\EU_CZECHY.png" />
+    <Resource Include="EU\EU_DANIA.png" />
+    <Resource Include="EU\EU_EST.png" />
+    <Resource Include="EU\EU_FINLANDIA.png" />
+    <Resource Include="EU\EU_FR.png" />
+    <Resource Include="EU\EU_GRECJA.png" />
+    <Resource Include="EU\EU_HISZ.png" />
+    <Resource Include="EU\EU_HOLA.png" />
+    <Resource Include="EU\EU_IRLA.png" />
+    <Resource Include="EU\EU_ISLAN.png" />
+    <Resource Include="EU\EU_IT.png" />
+    <Resource Include="EU\EU_KAZACH.png" />
+    <Resource Include="EU\EU_KOSO.png" />
+    <Resource Include="EU\EU_LIECH.png" />
+    <Resource Include="EU\EU_LITWA.png" />
+    <Resource Include="EU\EU_LOTWA.png" />
+    <Resource Include="EU\EU_LUKS.png" />
+    <Resource Include="EU\EU_MACPOL.png" />
+    <Resource Include="EU\EU_MALTA.png" />
+    <Resource Include="EU\EU_MONAKO.png" />
+    <Resource Include="EU\EU_MOŁD.png" />
+    <Resource Include="EU\EU_NIEMCY.png" />
+    <Resource Include="EU\EU_NORW.png" />
+    <Resource Include="EU\EU_POLSKA.png" />
+    <Resource Include="EU\EU_POR.png" />
+    <Resource Include="EU\EU_ROSJA.png" />
+    <Resource Include="EU\EU_RUM.png" />
+    <Resource Include="EU\EU_SANMAR.png" />
+    <Resource Include="EU\EU_SERB.png" />
+    <Resource Include="EU\EU_SLOV.png" />
+    <Resource Include="EU\EU_SLOWACJA.png" />
+    <Resource Include="EU\EU_SZWAJ.png" />
+    <Resource Include="EU\EU_SZWECJA.png" />
+    <Resource Include="EU\EU_TUR.png" />
+    <Resource Include="EU\EU_UK.png" />
+    <Resource Include="EU\EU_UKRA.png" />
+    <Resource Include="EU\EU_WATYKAN.png" />
+    <Resource Include="EU\EU_WEGRY.png" />
+    <Resource Include="Games_icons.png" />
+    <Resource Include="KE.jpg" />
+    <Resource Include="POLSKA.jpg" />
+    <Resource Include="PolskaDOLŚL.png" />
+    <Resource Include="PolskaKUJPOM.png" />
+    <Resource Include="PolskaLUBE.png" />
+    <Resource Include="PolskaLUBUS.png" />
+    <Resource Include="PolskaMAPOL.png" />
+    <Resource Include="PolskaMAZ.png" />
+    <Resource Include="PolskaOPOL.png" />
+    <Resource Include="PolskaPodkarpackie.png" />
+    <Resource Include="PolskaPODL.png" />
+    <Resource Include="PolskaPOM.png" />
+    <Resource Include="PolskaWARMAZ.png" />
+    <Resource Include="PolskaWIELKOPOL.png" />
+    <Resource Include="PolskaWOJ.jpg" />
+    <Resource Include="PolskaZACHPOM.png" />
+    <Resource Include="PolskaŁÓDZ.png" />
+    <Resource Include="PolskaŚL.png" />
+    <Resource Include="PolskaŚwKrz.png" />
+    <Resource Include="SA\SA_Argentina.png" />
+    <Resource Include="SA\SA_Boliwia.png" />
+    <Resource Include="SA\SA_Brazil.png" />
+    <Resource Include="SA\SA_Chile.png" />
+    <Resource Include="SA\SA_Gujana.png" />
+    <Resource Include="SA\SA_Kolumbia.png" />
+    <Resource Include="SA\SA_MAP.png" />
+    <Resource Include="SA\SA_Paraguay.png" />
+    <Resource Include="SA\SA_Peru.png" />
+    <Resource Include="SA\SA_Surinam.png" />
+    <Resource Include="SA\SA_Urugwaj.png" />
+    <Resource Include="SA\SA_Wenezuela.png" />
+    <Resource Include="SA_IMG.jpg" />
+    <Resource Include="SE.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

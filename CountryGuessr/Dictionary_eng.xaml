@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+    
+    <System:String x:Key="lang">Language</System:String>
+    <System:String x:Key="ButtonENG">English</System:String>
+    <System:String x:Key="ButtonPL">Polish</System:String>
+    <System:String x:Key="TextBlockTITLE">Games</System:String>
+    <System:String x:Key="TextBlockTextMENUCAT">Categories</System:String>
+    <System:String x:Key="TextBlockTextMENUSETT">Settings</System:String>
+    <System:String x:Key="TextBlockTextPW">Polish voivodeships</System:String>
+    <System:String x:Key="TextBlockTextOPISPW">Test yourself if you know all 16 Polish voivodeships!</System:String>
+    <System:String x:Key="ButtonPLAY1">PLAY</System:String>
+    <System:String x:Key="TextBlockTextSE">Capitals of europe</System:String>
+    <System:String x:Key="TextBlockTextOPISSE">Can you name all 44 capitals in Europe?</System:String>
+    <System:String x:Key="ButtonPLAY2">PLAY</System:String>
+    <System:String x:Key="TextBlockTextPE">Countries of europe</System:String>
+    <System:String x:Key="TextBlockTextOPISPE">There are 47 countries in Europe. do you know them all?</System:String>
+    <System:String x:Key="ButtonPLAY3">PLAY</System:String>
+    <System:String x:Key="TextBlockTextPAP">Countries of S.America</System:String>
+    <System:String x:Key="TextBlockOPISPAP">There are 12 countries in south america. do you know them all?</System:String>
+    <System:String x:Key="ButtonPLAY4">PLAY</System:String>
+    <System:String x:Key="TextBlockPODZIAL">administrative</System:String>
+    <System:String x:Key="TextBlockADMIN">division</System:String>
+    <System:String x:Key="TextBlockPANSTW">Countries</System:String>
+    <System:String x:Key="TextBlockCITIES" xml:space="preserve">Cities and </System:String>
+    <System:String x:Key="TextBlockSTOL">Capitals</System:String>
+    <System:String x:Key="TextBlockTextMENUTITLE">Games</System:String>
+    <System:String x:Key="TextBlockPW2">Polish voivodeships</System:String>
+    <System:String x:Key="TextBlockPWDESC">Test yourself if you know all 16 Polish voivodeships!</System:String>
+    <System:String x:Key="ButtonRETURN">RETURN</System:String>
+    <System:String x:Key="ButtonEND">END</System:String>
+    <System:String x:Key="TextBlockTextOC">Countries of Oceania</System:String>
+    <System:String x:Key="TextBlockTextOPISOC">There are 14 countries in Oceania. do you know them all?</System:String>
+    <System:String x:Key="ButtonPLAY5">PLAY</System:String>
+</ResourceDictionary>

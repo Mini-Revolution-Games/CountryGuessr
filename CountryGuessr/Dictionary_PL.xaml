@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+
+    <System:String x:Key="lang">jezyk</System:String>
+    <System:String x:Key="ButtonENG">angielski</System:String>
+    <System:String x:Key="ButtonPL">polski</System:String>
+    <System:String x:Key="TextBlockTITLE">Gry</System:String>
+    <System:String x:Key="TextBlockTextMENUCAT">kategorie</System:String>
+    <System:String x:Key="TextBlockTextMENUSETT">ustawienia</System:String>
+    <System:String x:Key="TextBlockTextPW">Polskie Województwa</System:String>
+    <System:String x:Key="TextBlockTextOPISPW">Sprawdź się czy znasz wszystkie 16 polskich województw!</System:String>
+    <System:String x:Key="ButtonPLAY1">GRAJ</System:String>
+    <System:String x:Key="TextBlockTextSE">Stolice europy</System:String>
+    <System:String x:Key="TextBlockTextOPISSE">czy potrafisz wymienić wszystkie 44 stolic w europie!</System:String>
+    <System:String x:Key="ButtonPLAY2">GRAJ</System:String>
+    <System:String x:Key="TextBlockTextPE">Państwa Europy</System:String>
+    <System:String x:Key="TextBlockTextOPISPE">W Europie jest 47 państw. czy znasz je wszystkie?</System:String>
+    <System:String x:Key="ButtonPLAY3">GRAJ</System:String>
+    <System:String x:Key="TextBlockTextPAP">Państwa Ameryki płd.</System:String>
+    <System:String x:Key="TextBlockOPISPAP">w ameryce południowej jest 12 państw. czy znasz je wszystkie?</System:String>
+    <System:String x:Key="ButtonPLAY4">GRAJ</System:String>
+    <System:String x:Key="TextBlockPODZIAL">podział</System:String>
+    <System:String x:Key="TextBlockADMIN">administracyjny</System:String>
+    <System:String x:Key="TextBlockPANSTW">Państwa</System:String>
+    <System:String x:Key="TextBlockCITIES" xml:space="preserve">Miasta i </System:String>
+    <System:String x:Key="TextBlockSTOL">Stolice</System:String>
+    <System:String x:Key="TextBlockTextMENUTITLE">Gry</System:String>
+    <System:String x:Key="TextBlockPW2">Polskie Województwa</System:String>
+    <System:String x:Key="TextBlockPWDESC">Sprawdź się czy znasz wszystkie 16 polskich województw!</System:String>
+    <System:String x:Key="ButtonRETURN">POWRÓT</System:String>
+    <System:String x:Key="ButtonEND">Koniec</System:String>
+    <System:String x:Key="TextBlockTextOC">Kraje Oceani</System:String>
+    <System:String x:Key="TextBlockTextOPISOC">w oceani jest 14 państw. czy znasz je wszystkie?</System:String>
+    <System:String x:Key="ButtonPLAY5">GRAJ</System:String>
+</ResourceDictionary>
